@@ -1,0 +1,5 @@
+/bin/phpspec
+/vendor/
+/build/
+/composer.phar
+.idea
