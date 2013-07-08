@@ -20,7 +20,4 @@ class ApplicationSpec extends ObjectBehavior
     {
         $this->shouldHaveType('D4m\TerminalNotifier\Console\Application');
     }
-
-
-
 }
