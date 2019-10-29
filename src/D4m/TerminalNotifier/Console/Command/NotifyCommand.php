@@ -44,7 +44,7 @@ class NotifyCommand extends Command
 
         foreach($options as $key => $optionValue) {
             if( in_array($key, $inputs, true) ) {
-                $argumentsString .= '-'.$key.' "'.substr($optionValue,1).'" ';
+                $argumentsString .= '-'.$key.' "'.$optionValue.'" ';
             }
 
         }
